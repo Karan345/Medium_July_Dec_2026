@@ -9,7 +9,7 @@ def two_sum_sorted(arr: list[int], target: int) -> list[int]:
         else:
             right -= 1 # Need smaller sum -> move right leftward
     return []
-
+# partitioning the array into two parts, one with unique elements and the other with duplicates
 
 def remove_duplicates(nums: list[int]) -> int:
     if not nums:
